@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Gamecentertest" package="com.sample.project" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Gamecentertest" />
+	
+	<ndll name="gamecenter" haxelib="gamecenter" if="ios" />
+    <dependency name="GameKit.framework" if="ios" />
+    
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="gamecenter" />
+
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>
