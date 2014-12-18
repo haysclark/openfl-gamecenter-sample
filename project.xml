@@ -4,9 +4,14 @@
 	<meta title="Gamecentertest" package="com.sample.project" version="1.0.0" company="Company Name" />
 	<app main="Main" path="Export" file="Gamecentertest" />
 	
-	<ndll name="gamecenter" haxelib="gamecenter" if="ios" />
+	<!--
+	<ndll name="gamecenter" if="ios" />
     <dependency name="GameKit.framework" if="ios" />
     
+	<ndll name="gamecenter" if="mac" />
+    <dependency name="GameKit.framework" if="mac" />
+	-->
+
 	<source path="Source" />
 	
 	<haxelib name="openfl" />
